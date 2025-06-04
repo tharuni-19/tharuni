@@ -1,0 +1,46 @@
+.parent p{
+    font-family:cursive;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+p:hover{
+    color: aliceblue;
+    background-color:azure;
+}
+.border{
+    border: 2px solid brown;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.margin{
+    border:3px solid aquamarine;
+    margin-top: 50px;
+    padding: 10px 50px 5px 30px;
+}
+.position{
+    border:2px solid aqua;
+}
+.relative{
+    position:fixed;
+    top: 40px;
+    left: -80px;
+}
+.page{
+    height: 100vh;
+}
+.fixed{
+    position: fixed;
+    left: 150px;
+}
+.sticky-header{
+    position:sticky;
+    top:0;
+    background-color:lightblue;
+    border:2px solid black;
+    padding:10px;
+    margin:10px;
+}
+
+
