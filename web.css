@@ -1,0 +1,15 @@
+.header{
+    display:flex;
+}
+.headlink ul{
+    column-rule-color:black;
+    list-type: style none;
+    display:flex;
+    justify-content:right;
+    gap:30px;
+}
+.grid-container{
+    grid-template-columns:150px ;
+    grid-template-rows: 80px;
+    justify-content:right;
+}
