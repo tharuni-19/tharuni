@@ -1,0 +1,30 @@
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headlink{
+    color:black;
+    list-style: none;
+    display: flex;
+    justify-content: top right;
+    gap: 30px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 150px;
+    grid-template-rows: 80px;
+    justify-content: right;
+
+}
+.grid-container div{
+    border:2px solid black;
+    grid-template: 50px;
+    justify-content: center;
+    justify-items: right;
+}
+.grid wrapper{
+    display: flex;
+    background-color: white;
+    min-height: 600px;
+    flex-direction: row;
+}
+

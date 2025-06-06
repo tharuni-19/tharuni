@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KPR</title>
     <style>
-        .select{
+        /* .select{
             color: pink;
         }
         #ordrer{
             font-size: 50px;
-        }
+        } */
     </style>
 </head>
 <body>
-    <h1 class="selected">HTML Head tag</h1>
+    <!-- <h1 class="selected">HTML Head tag</h1> -->
     <!-- <h2>comment this</h2> -->
-    <p>
+    <!-- <p>
         A paragraph is a way to organize writing. It helps readers understand ideas clearly. Each paragraph focuses on one topic, making writing easier to follow.
     </p>
     <style>
     p,h1{
         background-color: violet;
     }
-    </style>
-    <div class="parent">
+    </style> -->
+    <!-- <div class="parent">
         <p>
             A paragraph is a way to organize writing. It helps readers understand ideas clearly. Each paragraph focuses on one topic, making writing easier to follow.
         </p>
@@ -37,15 +37,30 @@
     <li>girl</li>
     </ol>
     <ul>
-    <li>shinchan<img src=""
-    </ul> 
+    <li>shinchan<img src="" -->
+    <!-- </ul> 
     <p>a<sub>4</sub></p>
     <p>4<sub>3</sub>=64</p>
     <a href="htts://www.google.com/"target="_blank">visit google</a>
-    <img src ="abc.jpg" alt="alternte name"/>  
-    <a href="table.html">tle</a>
+    <img src ="abc.jpg" alt="alternte name"/>   -->
+    <!-- </body> -->
+<body>
+    <!-- <a href="table.html">tle</a>
     <a href="newindex.html">indx</a>
     <a href="form.html">frm</a>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/i8ZHZUc8aNI?si=M_-w21CjGYhizyJi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <script>
+      console.log('hello from script')
+    </script> -->
+<input type="text" id="name">
+<button onclick=showName()>Click</button>
+<h1 id="result">HI</h1>
+<script>
+    function showName(){
+        const name=document.getElementById('name').value
+        document.getElementById('result').innertext=`Hello
+        ${name}`
+ }
+</script>
 </body>
 </html>
